@@ -50,19 +50,6 @@
 	</form>
 </div>	
 	
-<!--  <p>Product ID <input type="text" name="prodId" value='<s:property value="prodId"/>'></p>
-		
-		
-<p>Product Name <input type="text"  name="prodName" value='<s:property value="prodName"/>'></p>
-		            
-		
-<p>Product Description <input type="text" name="prodDesc" value='<s:property value="prodDesc"/>'></p>		
-
-		<button name="submitType" value="update" type="submit">Update</button>	
-	</table>	
-	</form>
-	</div>-->
-	
 	<s:if test="ctr>0">
 		<span style="color: red;"><s:property value="msg" /></span>
 	</s:if>
@@ -96,7 +83,7 @@ input[type=password], select {
 }
 input[type=submit] {
     width: 25%;
-    background-color: #4CAF50;
+    background-color: #32CD32;
     color: white;
     padding: 10px 20px;
     margin: 6px 0;
@@ -107,7 +94,7 @@ input[type=submit] {
 
 input[type=button] {
     width: 25%;
-    background-color: #4CAF50;
+    background-color: #32CD32;
     color: white;
     padding: 10px 20px;
     margin: 6px 0;
@@ -116,12 +103,12 @@ input[type=button] {
     cursor: pointer;
 }
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #32CD32;
 }
 
 div {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: lightblue;
     padding: 20px;
 }
 table {
