@@ -74,7 +74,7 @@ input[type=password], select {
 }
 input[type=submit] {
     width: 25%;
-    background-color: #32CD32;
+    background-color: #9ACD32;
     color: white;
     padding: 10px 20px;
     margin: 6px 0;
@@ -85,7 +85,7 @@ input[type=submit] {
 
 input[type=button] {
     width: 25%;
-    background-color: #32CD32;
+    background-color: #9ACD32;
     color: white;
     padding: 10px 20px;
     margin: 6px 0;
@@ -94,7 +94,7 @@ input[type=button] {
     cursor: pointer;
 }
 input[type=submit]:hover {
-    background-color: #32CD32;
+    background-color: #9ACD32;
 }
 
 div {
